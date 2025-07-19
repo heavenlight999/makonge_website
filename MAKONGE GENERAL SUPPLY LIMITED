@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makonge General Supply Ltd</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .contact p, .about p {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #1a1a1a;
+      color: #fff;
+      padding: 15px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="Nembo ya Makonge General Supply Ltd">
+  <h1>MAKONGE GENERAL SUPPLY LIMITED</h1>
+  <p>Mshirika wako wa kuaminika katika vifaa vya ujenzi na fanicha</p>
+</header>
+
+<nav>
+  <a href="#about">Kuhusu</a>
+  <a href="#mission">Dhamira</a>
+  <a href="#products">Bidhaa</a>
+  <a href="#contact">Wasiliana Nasi</a>
+</nav>
+
+<section id="about" class="about">
+  <h2>Kuhusu Kampuni</h2>
+  <p><strong>Ilianzishwa:</strong> 2 Septemba 2011</p>
+  <p><strong>Mkurugenzi:</strong> Zakayo Mathias Makonge</p>
+  <p><strong>Anuani:</strong> S.L.P 2521, Sabasaba, Ilemela, Mwanza – Tanzania</p>
+  <p><strong>Barua pepe:</strong> <a href="mailto:makongegema@gmail.com">makongegema@gmail.com</a></p>
+  <p><strong>Simu:</strong> +255 784 364 579 | +255 767 364 579</p>
+</section>
+
+<section id="mission">
+  <h2>Dhamira Yetu</h2>
+  <p>Dhamira ya Makonge General Supply Ltd ni kutoa bidhaa bora za ujenzi na huduma zinazohusiana ili kusaidia sekta ya ujenzi, miundombinu na maendeleo ya jamii. Tunajitolea kwa ubora, uendelevu, na kuridhisha wateja wetu.</p>
+  <p>Tunazingatia usambazaji wa saruji bora, mbao, nondo, vifaa vya zege, bati, fanicha na vifaa vya karakana kwa mahitaji ya sasa ya sekta ya ujenzi nchini Tanzania. Lengo letu ni kusaidia watu binafsi, makandarasi na kampuni kujenga majengo imara, salama na endelevu.</p>
+</section>
+
+<section id="products">
+  <h2>Bidhaa Zetu</h2>
+  <ul>
+    <li>Vifaa vya ujenzi</li>
+    <li>Saruji na vifaa vya zege</li>
+    <li>Nondo na vyuma vya kujenga</li>
+    <li>Mbao na bidhaa za kuni</li>
+    <li>Fanicha na samani</li>
+    <li>Bati, mabati, na vifaa vya karakana</li>
+  </ul>
+  <a class="button" href="#contact">Omba Nukuu</a>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Wasiliana Nasi</h2>
+  <p><strong>Barua pepe:</strong> <a href="mailto:makongegema@gmail.com">makongegema@gmail.com</a></p>
+  <p><strong>Simu:</strong> +255 784 364 579 / +255 767 364 579</p>
+  <p><strong>Anuani:</strong> S.L.P 2521, Sabasaba, Ilemela, Mwanza – Tanzania</p>
+  <p>Tupo tayari kukuhudumia. Tafadhali wasiliana nasi kwa oda, bei, au ushauri.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Makonge General Supply Ltd. Haki zote zimehifadhiwa.</p>
+</footer>
+
+</body>
+</html>
